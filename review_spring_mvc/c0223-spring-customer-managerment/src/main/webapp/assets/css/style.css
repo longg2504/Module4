@@ -1,0 +1,26 @@
+body{
+    background-color: red;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    position: fixed;
+    width: 100vh;
+    height: 100px;
+    top: 0;
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    width: 100vh;
+    height: 100px;
+    bottom: 0;
+}
+
+.content{
+    text-align: center;
+    font-size: 24px;
+
+}

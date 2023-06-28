@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-
+<h2>Xin Chào các Bạn ${message}</h2>
 </body>
 </html>

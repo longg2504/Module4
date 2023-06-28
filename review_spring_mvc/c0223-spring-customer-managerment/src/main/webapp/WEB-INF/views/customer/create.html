@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer's Info</title>
+
+    <th:block th:replace="layout/head :: head"/>
+</head>
+<body>
+<th:block th:replace="layout/header"/>
+<div class="content">
+    <form action="">
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="fullName" >Full Name</label>
+                <input type="text" name="fullName" id="fullName">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <button type="submit">create</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<th:block th:replace="layout/footer"/>
+</body>
+</html>
